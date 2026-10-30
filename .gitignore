@@ -1,0 +1,10 @@
+
+cat <<EOF > .gitignore
+__pycache__/
+.venv/
+.env
+EOF
+
+git add .
+
+git commit -m "Initial commit: add project files and .gitignore"
